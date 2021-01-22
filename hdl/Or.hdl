@@ -14,5 +14,9 @@ CHIP Or {
     OUT out;
 
     PARTS:
-    // Put your code here:
+    // syntax important: nand has a= b= out= syntax/wires
+    // out can be variable/internal wire to other nand input
+    Nand(a=a, b=a, out=c);
+    Nand(a=b, b=b, out=d);
+    Nand(a=c, b=d, out=out);
 }
