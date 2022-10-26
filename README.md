@@ -1,2 +1,2 @@
 # kf61-p01
-repository for project 1 in the book
+repository for project 1 in the book "From Nand to Tetris"
